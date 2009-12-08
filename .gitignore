@@ -1,0 +1,21 @@
+# system/editor files
+.DS_Store
+*.sw?
+
+# rails-related
+config/database.yml
+config/deploy.yml
+coverage/*
+db/schema.rb
+db/*.sqlite3
+db/*.db
+doc/app
+log/*.log
+tmp/**/*
+
+# gem bunder
+bin/*
+vendor/bundler_gems/environment.rb
+vendor/bundler_gems/gems
+vendor/bundler_gems/doc
+vendor/bundler_gems/specifications
