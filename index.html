@@ -1,54 +1,93 @@
 <html>
   <head>
     <title>Newer Yankee Workshop - Codestache</title>
-    <link rel="stylesheet" href="http://bluetrip.org/sites/bluetrip.org/themes/starkish/demo/css/screen.css" type="text/css" />
+    <style type="text/css">
+      body {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
+        color: #222;
+      }
+      h1 {
+        font-family: Georiga, serif;
+        font-weight: normal;
+        border-bottom: 1px solid #ddd;
+        margin-top: 20px;
+      }
+      h2 {
+        font-size: 122%;
+      }
+      pre code {
+        background-color: #eee;
+        color: #000;
+        display: block;
+      }
+    </style>
   </head>
   <body>
 
-    <h1>Prerequisites</h1>
-    <ul>
-      <li>OSX, BSD or Linux</li>
-      <li><a href="http://git-scm.com/">Git</a></li>
-      <li><a href="http://ruby-lang.org">Ruby 1.8.x</a></li>
-      <li><a href="http://docs.rubygems.org">Rubygems</a></li>
-      <li>Need to be able to compile C libraries (Xcode, build-essentials, etc.)</li> 
-    </ul>
+    <div style="width: 80%; margin: 0 auto;">
 
-    <p>
+
+      <h1>Cucumber Workshop</h1>
+
+
+      <p><a href="http://www.vermonster.com">Vermonster</a> and <a href="http://www.plectix.com">Plectix</a> are hosting a free two hour workshop focusing on everyone's favorite new tool, <a href="http://cukes.info">Cucumber</a>.</p> 
+
+      <p>Grab your computer and come see what all the noise is about.</p> 
+
+      <p>We'll give you a quick intro, do some hand-holding, and leave you to some pair exercises.</p> 
+
+      <p>Food and beverages will be on the house.</p> 
+
+      <p>Hopefully this will serve as the first of many such events in a series I call "The Newer Yankee Workshops" for New Englanders who want to get there Ruby on.</p> 
+
+      <p>Recent versions of <a href="http://git-scm.com">Git</a>, <a href="http://www.ruby-lang.org/en/">Ruby</a> and <a href="http://docs.rubygems.org">Gem</a> required. <a href="http://www.newyankee.com/about.php" title="The New Yankee Workshop">Toolbelt and flannel</a> optional.</p> 
+
+      <h1>Prerequisites</h1>
+      <ul>
+        <li>OSX, BSD or Linux</li>
+        <li><a href="http://git-scm.com/">Git</a></li>
+        <li><a href="http://ruby-lang.org">Ruby 1.8.x</a></li>
+        <li><a href="http://docs.rubygems.org">Rubygems</a></li>
+        <li>Need to be able to compile C libraries (Xcode, build-essentials, etc.)</li> 
+      </ul>
+
+      <p>
       If you need help with this, or are a Windows user, 
       <a href="http://wiki.devchix.com/index.php?title=Workshop_Installation_Notes">checkout out this guide</a>.
-    </p>
+      </p>
 
-    <h1>Setup</h1>
+      <h1>Setup</h1>
 
-    <h2>Install Gemcutter Gem</h2>
-    <pre><code>
+      <h2>Install Gemcutter Gem</h2>
+      <pre><code>
       $ gem install gemcutter
       $ gem tumble
     </code></pre>
 
-    <h2>Install Gem Bundler</h2>
-    <pre><code>
+      <h2>Install Gem Bundler</h2>
+      <pre><code>
       $ gem install bundler
     </code></pre>
 
-    <h2>Clone repository</h2>
-    <pre><code>
+      <h2>Clone repository</h2>
+      <pre><code>
       $ git clone git://github.com/neweryankee/codestache.git
     </code></pre>
 
-    <h2>Gem bundle</h2>
-    <pre><code>
+      <h2>Gem bundle</h2>
+      <pre><code>
       $ cd codestache
       $ gem bundle
     </code></pre>
 
-    <h1>Test it out</h1>
+      <h1>Test it out</h1>
 
-    <p>Make sure things are green...</p>
-    <pre><code>
+      <p>Make sure things are green...</p>
+      <pre><code>
       $ rake
     </code></pre>
 
-  </body>
-</html>
+      </div>
+
+    </body>
+  </html>
