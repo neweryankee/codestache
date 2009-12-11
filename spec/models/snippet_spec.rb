@@ -24,5 +24,21 @@ describe Snippet do
     end
     
   end
-  
+
+  describe "without a title" do
+    before do
+      @snippet.title = nil
+      @valid = @snippet.valid?
+    end
+    
+    it "should not be valid" do
+      @valid.should == false
+    end
+    
+    it "should have errors on title" do
+      @snippet.errors.on(:title).should =~ /blank/
+    end
+    
+  end
+
 end
