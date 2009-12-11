@@ -11,6 +11,10 @@ module NavigationHelpers
     when /the home\s?page/
       '/'
     
+    when /the \"(.*)\" snippet page/
+      snippet = Snippet.find_by_body($1)
+      snippet_path(snippet)
+
     # Add more mappings here.
     # Here is a more fancy example:
     #
