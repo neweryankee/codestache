@@ -3,8 +3,6 @@
 *.sw?
 
 # rails-related
-config/database.yml
-config/deploy.yml
 coverage/*
 db/schema.rb
 db/*.sqlite3
