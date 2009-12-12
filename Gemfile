@@ -9,6 +9,7 @@ gem "rails", "2.3.5"
 gem "sqlite3-ruby", "1.2.5"
 gem "nokogiri", "1.4.0"
 gem "haml", "2.2.15"
+gem "compass", "0.10.0.pre2"
 gem 'ruby-debug', '0.10.3', :only => [ :test, :development]
 
 only :test do
