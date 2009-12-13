@@ -1,17 +1,17 @@
-/* line 1, ../../app/stylesheets/scaffold.sass */
+/* line 1, ../../../app/stylesheets/scaffold.sass */
 body {
   text-align: center;
   margin: 0 auto;
 }
 
-/* line 6, ../../app/stylesheets/scaffold.sass */
+/* line 6, ../../../app/stylesheets/scaffold.sass */
 .fieldWithErrors {
   padding: 2px;
   background-color: red;
   display: table;
 }
 
-/* line 12, ../../app/stylesheets/scaffold.sass */
+/* line 12, ../../../app/stylesheets/scaffold.sass */
 #errorExplanation {
   width: 400px;
   border: 2px solid red;
@@ -20,7 +20,7 @@ body {
   margin-bottom: 20px;
   background-color: #f0f0f0;
 }
-/* line 20, ../../app/stylesheets/scaffold.sass */
+/* line 20, ../../../app/stylesheets/scaffold.sass */
 #errorExplanation h2 {
   text-align: left;
   font-weight: bold;
@@ -30,13 +30,13 @@ body {
   background-color: #c00;
   color: #fff;
 }
-/* line 29, ../../app/stylesheets/scaffold.sass */
+/* line 29, ../../../app/stylesheets/scaffold.sass */
 #errorExplanation p {
   color: #333;
   margin-bottom: 0;
   padding: 5px;
 }
-/* line 34, ../../app/stylesheets/scaffold.sass */
+/* line 34, ../../../app/stylesheets/scaffold.sass */
 #errorExplanation ul li {
   font-size: 12px;
   list-style: square;
