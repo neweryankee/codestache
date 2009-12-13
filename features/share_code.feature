@@ -5,9 +5,10 @@ Feature: Share killer code snippet with the world
 
 Scenario: Visit the home page
 	Given I am on the home page
-	 Then I should see "New snippet"	
+	 Then I should see "New snippet"
 	  And I should see "Title" within "label[for=snippet_title]"
 	  And I should see "Body" within "label[for=snippet_body]"
+	  And I should see "Submit" within "button.round_corners"
 
 Scenario: Create a code snippet
 	Given I am on the home page
@@ -18,6 +19,7 @@ Scenario: Create a code snippet
 	  And I should see "safety first" within "h1"
 	  And I should see "sudo rm -rf /" within "pre code"
 	  And I should be on the "sudo rm -rf /" snippet page
+	  And I should see "New" within "a.button.round_corners"
 
 Scenario: View a code snippet
 	Given the following snippets
