@@ -13,10 +13,10 @@ Scenario: Create a code snippet
 	 When I fill in "body" with "sudo rm -rf /"
 	  And I press "Submit"
 	 Then I should see "successfully created" within "p"
-	  And I should see "sudo rm -rf /" within "code"
+	  And I should see "sudo rm -rf /" within "pre code"
 	  And I should be on the "sudo rm -rf /" snippet page
 
 Scenario: View a code snippet
 	Given a snippet exists with a body of "sudo rm -rf /"
 	 When I go to the "sudo rm -rf /" snippet page
-	 Then I should see "sudo rm -rf /" within "code"
+	 Then I should see "sudo rm -rf /" within "pre code"
