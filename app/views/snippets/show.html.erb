@@ -1,4 +1,12 @@
 <h1><%=h @snippet.title %></h1>
 <pre><code><%=h @snippet.body %></code></pre>
 
+<% form_tag(snippet_notifications_path(:snippet_id => @snippet.to_param), :method => :post) do %>
+	<p>
+		<%= label_tag 'email', 'Email', :for => 'email', :class => 'hidden' %>
+		<%= text_field_tag 'email', 'email', :id => 'email' %>
+		<button>Tell a friend</button>
+	</p>
+<% end %>
+
 <p><%= link_to 'New', new_snippet_path, :class => "button round_corners" %></p>

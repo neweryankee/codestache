@@ -36,6 +36,7 @@ ActionController::Routing::Routes.draw do |map|
   # See how all your routes lay out with "rake routes"
   
   map.resources :snippets, :only => [:new, :create, :show]
+  map.resources :snippet_notifications, :only => [:create]
   
   map.root :controller => "snippets", :action => "new"
   
