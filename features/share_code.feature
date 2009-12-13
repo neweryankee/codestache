@@ -16,7 +16,7 @@ Scenario: Create a code snippet
 	 When I fill in "body" with "sudo rm -rf /"
 	  And I press "Submit"
 	 Then I should see "successfully created" within "p"
-	  And I should see "safety first" within "h1"
+	  And I should see "safety first" within "h2"
 	  And I should see "sudo rm -rf /" within "pre code"
 	  And I should be on the "sudo rm -rf /" snippet page
 	  And I should see "New" within "a.button.round_corners"
@@ -26,5 +26,5 @@ Scenario: View a code snippet
     | title        | body          |
     | safety first | sudo rm -rf / |
 	 When I go to the "sudo rm -rf /" snippet page
-	 Then I should see "safety first" within "h1"
+	 Then I should see "safety first" within "h2"
 	  And I should see "sudo rm -rf /" within "pre code"

@@ -6,8 +6,6 @@
 @import blueprint
 // Import the non-default scaffolding module.
 @import blueprint/scaffolding.sass
-// Import the fancy-buttons module.
-@import buttons.sass
 
 
 // To generate css equivalent to the blueprint css but with your configuration applied, uncomment:
@@ -41,7 +39,3 @@ body.three-col
     !content_columns = ceil(2 * !blueprint_grid_columns / 3)
     // true means it's the last column in the row
     +column(!content_columns, true)
-
-button.round_corners, a.button.round_corners
-  +fancy-button(darken(#57b42c, 8), 30px, 20px, 2px)
-  color: white

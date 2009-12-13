@@ -1,38 +1,66 @@
+// Import the fancy-buttons module.
+@import buttons.sass
+// Import the fonts module
+@import fonts.sass
+
 body
   text-align: center
-  margin: 0 auto
+  font-family: "Mariana Slabserif", serif
+  letter-spacing: -1px
+  margin: 10px auto 0 auto
+  width: 900px
+  background-color: #f5f5f5
+  color: #424242
+
+h1, h2, h3, h4, h5
+  font-family: "Mariana Slabserif"
+  font-weight: normal
+
+input, button
+  font-family: "Mariana Slabserif"
+
+pre
+  padding: 10px
+  border: 2px solid #e0e0e0
+  background-color: #ffffff
+  color: #1c1c1c
+  font-size: 1.2em
+  text-align: left
+
+button.round_corners, a.button.round_corners
+  +fancy-button(darken(#f5f5f5, 8), 30px, 20px, 2px)
+  font-family: "Mariana Slabserif"
+
+button.round_corners.medium, a.button.round_corners.medium
+  +fancy-button(darken(#f5f5f5, 4), 14px, 4px, 2px)
+  font-family: "Mariana Slabserif"
 
 .hidden
   display: none
 
 .fieldWithErrors
-  padding: 2px
-  background-color: red
-  display: table
-
+  color: red
 
 #errorExplanation
-  width: 400px
-  border: 2px solid red
-  padding: 7px
-  padding-bottom: 12px
-  margin-bottom: 20px
-  background-color: #f0f0f0
-
   h2
     text-align: left
     font-weight: bold
     padding: 5px 5px 5px 15px
-    font-size: 12px
     margin: -7px
-    background-color: #c00
+    background-color: red
     color: #fff
-
   p
     color: #333
     margin-bottom: 0
     padding: 5px
-
   ul li
-    font-size: 12px
     list-style: square
+
+#logo
+  font-size: 5em
+  color: #94B01C
+  text-shadow: 1px 5px 5px rgba(13, 24, 36, 0.1)
+  word-spacing: -.10em
+  letter-spacing: -.05em
+  font-weight: 100
+  margin: 0

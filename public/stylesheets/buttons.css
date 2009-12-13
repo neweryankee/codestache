@@ -1,37 +1,9 @@
 /* incase an inverted custom gradient isn't specified */
 
-/* line 3, ../../app/stylesheets/buttons.sass */
-body {
-  text-align: center;
-  padding-top: 10px;
-}
-
-/* line 6, ../../app/stylesheets/buttons.sass */
-h1, h2, h3 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
-  letter-spacing: -1px;
-}
-
-/* line 10, ../../app/stylesheets/buttons.sass */
-h1 {
-  font-size: 50px;
-}
-
-/* line 12, ../../app/stylesheets/buttons.sass */
-h2 {
-  font-size: 30px;
-}
-
-/* line 14, ../../app/stylesheets/buttons.sass */
-div {
-  margin-top: 15px;
-}
-
-/* line 27, ../../app/stylesheets/buttons.sass */
+/* line 13, ../../app/stylesheets/buttons.sass */
 a.button, button {
   font-family: "Lucida Grande", Lucida, Arial, sans_serif;
-  background: url('/images/button_bg.png?1260636298') repeat-x bottom left;
+  background: url('/images/button_bg.png?1260721868') repeat-x bottom left;
   margin: 0;
   width: auto;
   overflow: visible;
@@ -93,7 +65,7 @@ a.button:active, button:active {
   text-shadow: black 0px -1px -1px;
   color: white;
 }
-/* line 32, ../../app/stylesheets/buttons.sass */
+/* line 18, ../../app/stylesheets/buttons.sass */
 a.button.light, button.light {
   background-color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(#cecece));
@@ -120,7 +92,7 @@ a.button.light:active, button.light:active {
   text-shadow: white 0px -1px -1px;
   color: #222222;
 }
-/* line 34, ../../app/stylesheets/buttons.sass */
+/* line 20, ../../app/stylesheets/buttons.sass */
 a.button.matte-blue, button.matte-blue {
   background-color: #0059b7;
   background: -webkit-gradient(linear, left top, left bottom, from(#3680ce), to(#1e4b7a));
@@ -147,7 +119,7 @@ a.button.matte-blue:active, button.matte-blue:active {
   text-shadow: #000c18 0px -1px -1px;
   color: white;
 }
-/* line 36, ../../app/stylesheets/buttons.sass */
+/* line 22, ../../app/stylesheets/buttons.sass */
 a.button.green, button.green {
   background-color: #3ab700;
   background: -webkit-gradient(linear, left top, left bottom, from(#9ee080), to(#4fa328), color-stop(10%, #66ce36), color-stop(50%, #418621), color-stop(50%, #3b7a1e));
@@ -174,7 +146,7 @@ a.button.green:active, button.green:active {
   text-shadow: #081800 0px -1px -1px;
   color: white;
 }
-/* line 38, ../../app/stylesheets/buttons.sass */
+/* line 24, ../../app/stylesheets/buttons.sass */
 a.button.blue, button.blue {
   border-radius: 32px;
   -moz-border-radius: 32px;
@@ -218,7 +190,7 @@ a.button.blue:active, button.blue:active {
   text-shadow: #000c18 0px -1px -1px;
   color: white;
 }
-/* line 41, ../../app/stylesheets/buttons.sass */
+/* line 27, ../../app/stylesheets/buttons.sass */
 a.button.red, button.red {
   background-color: #b70300;
   background: -webkit-gradient(linear, left top, left bottom, from(#e08280), to(#a32b28), color-stop(10%, #ce3936), color-stop(50%, #862321), color-stop(50%, #7a201e));
@@ -245,7 +217,7 @@ a.button.red:active, button.red:active {
   text-shadow: #180000 0px -1px -1px;
   color: white;
 }
-/* line 43, ../../app/stylesheets/buttons.sass */
+/* line 29, ../../app/stylesheets/buttons.sass */
 a.button.yellow, button.yellow {
   background-color: #e6e600;
   background: -webkit-gradient(linear, left top, left bottom, from(#ebeba4), to(#cece2d), color-stop(10%, #dbdb58), color-stop(50%, #b1b127), color-stop(50%, #a4a424));
@@ -272,7 +244,7 @@ a.button.yellow:active, button.yellow:active {
   text-shadow: #484900 0px -1px -1px;
   color: white;
 }
-/* line 45, ../../app/stylesheets/buttons.sass */
+/* line 31, ../../app/stylesheets/buttons.sass */
 a.button.custom, button.custom {
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -304,7 +276,7 @@ a.button.custom.disabled:active, button.custom.disabled:active {
   padding: 2px 12px;
   border-width: 2px;
 }
-/* line 48, ../../app/stylesheets/buttons.sass */
+/* line 34, ../../app/stylesheets/buttons.sass */
 a.button.heart, button.heart {
   background-color: #c10200;
   background: -webkit-gradient(radial, 50% 10%, 10, 50% 10%, 30, from(#e72926), to(#7b0f0d));
@@ -331,7 +303,7 @@ a.button.heart:active, button.heart:active {
   text-shadow: #220000 0px -1px -1px;
   color: white;
 }
-/* line 50, ../../app/stylesheets/buttons.sass */
+/* line 36, ../../app/stylesheets/buttons.sass */
 a.button.arrow, button.arrow {
   border-radius: 30px;
   -moz-border-radius: 30px;
@@ -387,7 +359,7 @@ a.button.arrow.disabled:active, button.arrow.disabled:active {
   padding: 2px 6px;
   border-width: 2px;
 }
-/* line 54, ../../app/stylesheets/buttons.sass */
+/* line 40, ../../app/stylesheets/buttons.sass */
 a.button.spade, button.spade {
   background-color: #0059b7;
   background: -webkit-gradient(radial, 50% 10%, 10, 50% 10%, 30, from(#3680ce), to(#193e66));
