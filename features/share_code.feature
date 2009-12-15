@@ -17,6 +17,6 @@ Scenario: Create a code snippet
 	  And I should be on the "sudo rm -rf /" snippet page
 
 Scenario: View a code snippet
-	Given a snippet exists with a body of "sudo rm -rf /"
+	Given a snippet exists with body: "sudo rm -rf /"
 	 When I go to the "sudo rm -rf /" snippet page
 	 Then I should see "sudo rm -rf /" within "pre code"
