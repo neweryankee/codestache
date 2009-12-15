@@ -18,6 +18,7 @@ only :test do
   gem 'webrat', '0.5.3'
   gem 'factory_girl', '1.2.3'
   gem 'shoulda', '2.10.2'
+  gem 'pickle', '0.2.1'
 end
 
 only :development do
