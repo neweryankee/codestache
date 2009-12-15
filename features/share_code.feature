@@ -18,5 +18,5 @@ Scenario: Create a code snippet
 
 Scenario: View a code snippet
 	Given a snippet exists with body: "sudo rm -rf /"
-	 When I go to the "sudo rm -rf /" snippet page
+	 When I go to the show page for that snippet
 	 Then I should see "sudo rm -rf /" within "pre code"

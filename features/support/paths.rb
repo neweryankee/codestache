@@ -15,6 +15,9 @@ module NavigationHelpers
       snippet = Snippet.find_by_body($1)
       snippet_path(snippet)
 
+    when /the show page for (.+)/
+      polymorphic_path(model($1))
+
     # Add more mappings here.
     # Here is a more fancy example:
     #
