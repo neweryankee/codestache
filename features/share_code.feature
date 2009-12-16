@@ -6,7 +6,7 @@ Feature: Share killer code snippet with the world
 Scenario: Visit the home page
 	Given I am on the home page
 	 Then I should see "New snippet"
-	  And I should see "Body" within "label"
+	  And I should see a "Text Area" for "Body"
 
 Scenario: Create a code snippet
 	Given I am on the home page
